@@ -6,6 +6,10 @@ import Button from "../elements/Button";
 import Image from "../elements/Image";
 import Modal from "../elements/Modal";
 
+import homePageHeader from "../../assets/images/home-page-header.png";
+import SelectHouseBro from "../../assets/images/select-house-bro-.png";
+import Grid from "@material-ui/core/Grid";
+
 const propTypes = {
   ...SectionProps.types,
 };
@@ -56,70 +60,57 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1
-              className="mt-0 mb-16 reveal-from-bottom"
-              data-reveal-delay="200"
-            >
-              Landing template for{" "}
-              <span className="text-color-primary">startups</span>
-            </h1>
-            <div className="container-xs">
-              <p
-                className="m-0 mb-32 reveal-from-bottom"
-                data-reveal-delay="400"
-              >
-                Our landing page template works on all devices, so you only have
-                to set it up once, and get beautiful results forever.
-              </p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
-                  <Button
-                    tag="a"
-                    color="primary"
-                    wideMobile
-                    href="https://cruip.com/"
-                  >
-                    Get Started
-                  </Button>
-                  <Button
-                    tag="a"
-                    color="dark"
-                    wideMobile
-                    href="https://github.com/cruip/open-react-template/"
-                  >
-                    View on Github
-                  </Button>
-                </ButtonGroup>
-              </div>
-            </div>
+            <Grid container spacing={3} alignItems="center">
+              <Grid item xs={12}>
+                <h1
+                  className="mt-0 mb-16 reveal-from-bottom"
+                  data-reveal-delay="200"
+                >
+                  お客様の
+                  <span className="text-color-primary">ビジネスグロース</span>
+                  を目指す
+                </h1>
+              </Grid>
+              <Grid item xs={6}>
+                <p
+                  className="m-0 mb-32 reveal-from-bottom"
+                  data-reveal-delay="400"
+                >
+                  当社はIT開発会社ですが開発は単なる通過点であり、その先に見据えるビジネスのグロースをお手伝いすることをモットーにしています。ITを使ってないが出来るのか一緒に相談できる替えの利かないパートナーでいます。
+                </p>
+              </Grid>
+              <Grid item xs={6}>
+                <img
+                  src={homePageHeader}
+                  alt="homePageHeader"
+                  className="m-0 mb-32 reveal-from-bottom"
+                  data-reveal-delay="400"
+                />
+              </Grid>
+              <Grid item xs={6}>
+                <img
+                  src={SelectHouseBro}
+                  alt="SelectHouseBro"
+                  className="m-0 mb-32 reveal-from-bottom"
+                  data-reveal-delay="600"
+                />
+              </Grid>
+              <Grid item xs={6}>
+                <h3
+                  className="mt-0 mb-16 reveal-from-bottom"
+                  data-reveal-delay="600"
+                >
+                  DXのお手伝い、その先へ
+                </h3>
+                <p
+                  className="m-0 mb-32 reveal-from-bottom"
+                  data-reveal-delay="600"
+                >
+                  まだ会社やブランドのホームページがない、今使っているものが古くなっている、業務管理を手書きやExcelで行っている、店舗のみで売っているものをオンラインでも販売したい、海外のお客様も集客したいけど何から始めたらいいかわからない、各お客様が抱えている悩みはそれぞれです。またやりたいことは何となくあるけどどう始めたらいいのかわからない、そんな悩み一緒に相談して見える形でご提案致します。
+                </p>
+              </Grid>
+            </Grid>
           </div>
-          <div
-            className="hero-figure reveal-from-bottom illustration-element-01"
-            data-reveal-value="20px"
-            data-reveal-delay="800"
-          >
-            <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            >
-              <Image
-                className="has-shadow"
-                src={require("./../../assets/images/video-placeholder.jpg")}
-                alt="Hero"
-                width={896}
-                height={504}
-              />
-            </a>
-          </div>
-          <Modal
-            id="video-modal"
-            show={videoModalActive}
-            handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe"
-          />
         </div>
       </div>
     </section>
