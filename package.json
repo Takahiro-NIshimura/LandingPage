@@ -18,7 +18,7 @@
     "type": "git",
     "url": "https://github.com/cruip/open-react-template.git"
   },
-  "homepage": "https://takahiro-nishimura.github.io/LandingPage/",
+  "homepage": "https://Takahiro-NIshimura.github.io/LandingPage/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
