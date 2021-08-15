@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/LandingPage/static/css/main.ba80d3f6.chunk.css",
+    "main.js": "/LandingPage/static/js/main.ea2ba785.chunk.js",
+    "main.js.map": "/LandingPage/static/js/main.ea2ba785.chunk.js.map",
+    "runtime-main.js": "/LandingPage/static/js/runtime-main.78cee873.js",
+    "runtime-main.js.map": "/LandingPage/static/js/runtime-main.78cee873.js.map",
+    "static/js/2.96dcba60.chunk.js": "/LandingPage/static/js/2.96dcba60.chunk.js",
+    "static/js/2.96dcba60.chunk.js.map": "/LandingPage/static/js/2.96dcba60.chunk.js.map",
+    "index.html": "/LandingPage/index.html",
+    "precache-manifest.82a0b3e1b4b10d8c9f21e66fcf7b77a1.js": "/LandingPage/precache-manifest.82a0b3e1b4b10d8c9f21e66fcf7b77a1.js",
+    "service-worker.js": "/LandingPage/service-worker.js",
+    "static/css/main.ba80d3f6.chunk.css.map": "/LandingPage/static/css/main.ba80d3f6.chunk.css.map",
+    "static/js/2.96dcba60.chunk.js.LICENSE.txt": "/LandingPage/static/js/2.96dcba60.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/LandingPage/static/media/illustration-section-02.63d0555d.svg",
+    "static/media/feature-tile-icon-01.svg": "/LandingPage/static/media/feature-tile-icon-01.0f9928d7.svg",
+    "static/media/feature-tile-icon-02.svg": "/LandingPage/static/media/feature-tile-icon-02.bd39f304.svg",
+    "static/media/feature-tile-icon-03.svg": "/LandingPage/static/media/feature-tile-icon-03.66f37ba5.svg",
+    "static/media/feature-tile-icon-04.svg": "/LandingPage/static/media/feature-tile-icon-04.836acd10.svg",
+    "static/media/feature-tile-icon-05.svg": "/LandingPage/static/media/feature-tile-icon-05.fa9ba00b.svg",
+    "static/media/feature-tile-icon-06.svg": "/LandingPage/static/media/feature-tile-icon-06.6a177696.svg",
+    "static/media/features-split-image-01.png": "/LandingPage/static/media/features-split-image-01.d9cb99ce.png",
+    "static/media/features-split-image-02.png": "/LandingPage/static/media/features-split-image-02.3c569239.png",
+    "static/media/features-split-image-03.png": "/LandingPage/static/media/features-split-image-03.87e4d053.png",
+    "static/media/home-page-header.png": "/LandingPage/static/media/home-page-header.7938f3ef.png",
+    "static/media/logo.svg": "/LandingPage/static/media/logo.2810a88b.svg",
+    "static/media/select-house-bro-.png": "/LandingPage/static/media/select-house-bro-.357e1d9a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78cee873.js",
+    "static/js/2.96dcba60.chunk.js",
+    "static/css/main.ba80d3f6.chunk.css",
+    "static/js/main.ea2ba785.chunk.js"
+  ]
+}
