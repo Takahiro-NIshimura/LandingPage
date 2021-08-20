@@ -60,7 +60,7 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <Grid container spacing={3} alignItems="center">
+            <Grid container alignItems="center">
               <Grid item xs={12}>
                 <h1
                   className="mt-0 mb-16 reveal-from-bottom"
